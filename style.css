@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: pink;
+}
+
+ul{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+.thumbanail{
+    padding-top: 7%;
+    
+}
+
+.thumbanail li{
+    list-style: none;
+    position: relative;
+    margin-top: 50px;
+    
+
+
+}
+.thumbanail img{
+    display: block;
+    max-width: 120px;
+    
+
+}
+
+.thumbanail img:hover{
+    transform: translateX(30px);
+    transition: 0.3s;
+}
